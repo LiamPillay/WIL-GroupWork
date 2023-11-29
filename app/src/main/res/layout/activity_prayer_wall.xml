@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlue"
+    android:padding="5dp"
+    tools:context=".PrayerWall">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:text="Prayer Wall"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="The following section will provide you with prayers to help you when you need it:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Difficult times:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="I pray that despite the difficulty surrounding us that we can stand firm in our faith. I pray we can share the love of Jesus with all those around us and that the lies and the schemes of the enemy will not prevail. I lift the people who don’t know you, I pray you would bring people into their lives that can bring truth to their hearts and hope for their souls. Thank you for your peace, Lord and thank you that we can come to you and you meet us right where we are.
+In your name we pray, Jesus, amen"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Peace:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Father God, my heart is filled with chaos and confusion. I feel as if I am drowning in my circumstances and my heart is filled with fear and confusion. I really need the strength and peace that only You can give. Right now, I choose to rest in You. In Jesus’ Name, I pray, Amen"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="A broken heart:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="I praise You, Father, because in You, I can be set free from the grief, as your word assures, “So if the Son sets you free, you will be free indeed” (John 8:36). Thank You for Your nearness to me during this time of overwhelming heartbreak and loss. In Your beautiful name I release my deepest sorrows and receive Your abundant life. Today, Father, I receive Your freedom from this brokenness to heal my heart. I look to you to turn my sorrow into joy and to replace my many tears shed with joyful songs (Psalm 126:5).
+In Jesus’ name, Amen"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Perseverance:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Holy Lord, Thank You for grace. Please help me move beyond the hurdles that trip me up and give me the strength and wisdom to look up and see the hope I run toward in Christ. In Jesus’ Name, Amen."
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Self-Control:"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Father, today I ask forgiveness of all the negative and harmful words I have spoken about myself. I do not want to abuse myself in such a way again. Transform my thoughts and let me understand how marvelously you made me. Change my habits so I use my tongue to speak hope and favor upon my life. In Jesus' name, Amen."
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="For Your Children:"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Lord, I release my children to Your care and protection, and I relinquish my will for them in favor of Your will. I know I can't go everywhere my child goes, but I know you do. Please protect them.Give us wisdom for how to parent well. Give us peace in Your goodness toward our children and your love for us. In Jesus' Name, Amen"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Loving like Jesus:"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Father, I have to thank You for looking beyond my faults and for loving me unconditionally. Forgive me when I fail to love others in the same way. Give me eyes to see the needs of the difficult people in my life, and show me how to meet those needs in a way that pleases You. In Jesus’ Name, Amen."
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="God's Direction:"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Lord, help me not to lean on my own understanding but in everything acknowledge You so that You can direct my words, thoughts and actions. In Jesus’ Name, Amen."
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Worry:"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Father, I am tempted to worry about so many things. Our world is a mess! Forgive me for focusing on anything or anyone but You. Thank You for the Bible that equips and empowers me to live each day. Right now, I declare that You are my only Hope. Please help me remember that You really are in control. In Jesus’ Name, Amen."
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Strength:"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Lord, thank you for your greatness. Thank you that when I am weak, you are strong. Lord, the Devil is scheming and I know he desires to keep me from spending time with you. Don’t let him win! Give me a measure of your strength so that I might not give into discouragement, deception and doubt! Help me honor you in all my ways. In Jesus’ Name, Amen."
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.bible.com/bible/116/JHN.1.NLT"
+                android:textSize="11pt"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

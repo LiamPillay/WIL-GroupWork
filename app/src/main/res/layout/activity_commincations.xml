@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".Commincations">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Communications Page"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/subHeading"
+        android:text="Need to speak to one of our elders? You can find their contact details below: "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/contact6"
+        android:text="Landline: 011 465 1873"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingLeft="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/contact5"
+        android:text="Emergency: 082 425 1980 "
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingLeft="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/emailText"
+        android:text="Don't want to speak on the phone? Email us instead: "
+        android:textSize="11pt"
+        android:textAlignment="center"
+        android:paddingTop="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:text="office@villagechurch.co.za "
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingLeft="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/facebookText"
+        android:text="Find us on Facebook: "
+        android:textSize="11pt"
+        android:textAlignment="center"
+        android:paddingTop="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/facebook"
+        android:text="facebook.com/lonehillvillagechurch "
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingLeft="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/addressText"
+        android:text="Our Home: "
+        android:textSize="11pt"
+        android:textAlignment="center"
+        android:paddingTop="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:text="23 Crestwood Drive, Lonehill "
+        android:textSize="11pt"
+        android:paddingBottom="10pt"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingLeft="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Home"
+        android:id="@+id/homeButton"
+        android:background="@color/black"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"
+        android:paddingLeft="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/churchvillage"
+        android:paddingBottom="5pt"/>
+
+</LinearLayout>

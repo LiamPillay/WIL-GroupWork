@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/lightBlue"
+    tools:context=".PrayerDevotional">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Prayer and Devotional Tools"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:id="@+id/subHeading1"
+            android:text="Prayer Wall"
+            android:textAlignment="center"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingTop="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/PrayerWallButton"
+            android:gravity="center"
+            android:layout_marginLeft="70sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="5pt"
+        app:srcCompat="@drawable/hands" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/subHeading4"
+            android:text="Scripture Library "
+            android:textAlignment="center"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingTop="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/ScriptureButton"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="5pt"
+        app:srcCompat="@drawable/scripture" />
+
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".Events">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Events Page"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="If you would like to volunteer for or have any queries about an event, please contact us. (Details available on Communications Page)"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        android:paddingBottom="5pt"
+        app:srcCompat="@drawable/eventsjpg" />
+
+    <TextView
+        android:id="@+id/subHeading"
+        android:text="Upcoming Events:  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="* Carol Service- 03 December 2023  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="* Christmas Hamper Outreach- 09 Decembr 2023 "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Past Events:  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="* General Meeting- 18 October 2023  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="* Celebration Service- 15 October 2023  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="* Worship Evening- 31 August 2023  "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:text="Commnications Page"
+            android:textAlignment="center"
+            android:textSize="11pt"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingTop="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/commsButton2"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open" />
+    </LinearLayout>
+
+
+</LinearLayout>

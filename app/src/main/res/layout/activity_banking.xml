@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".Banking">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Donations Page"
+        android:textAlignment="center"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/subHeading2"
+        android:text="Luke 6:38 Give, and it will be given to you."
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/subHeading"
+        android:text="Donations are a big part of what keeps us able to provide the community with an amazing church and place of worship for our Lord and Saviour! "
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/subHeading3"
+        android:text="Make a contribution by donating using our provided bank details or make a cash donation at our campus"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/subHeading4"
+        android:text="Banking Details:"
+        android:textAlignment="center"
+        android:textSize="11pt"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingTop="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bankDetails"
+        android:text="Name: Lonehill Village Church"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:paddingTop="5pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bankDetails1"
+        android:text="Bank: First National Bank"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bankDetails2"
+        android:text="Branch: 251655"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bankDetails3"
+        android:text="Account No.: 513 256 418 97"
+        android:textSize="11pt"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Home"
+        android:id="@+id/homeButton"
+        android:background="@color/lightBlue"
+        android:textColor="@color/black"
+        android:paddingTop="10pt"
+        android:paddingBottom="10pt"
+        android:paddingLeft="10pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cross" />
+
+
+</LinearLayout>

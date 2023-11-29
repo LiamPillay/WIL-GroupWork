@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ScriptureLibrary"
+    android:background="@color/lightBlue">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Scripture Library"
+                android:textAlignment="center"
+                android:textSize="14pt"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="The Lord's living Word is the Bible. Enjoy some of the many beautiful verses given to us from our Father."
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5pt"
+                app:srcCompat="@drawable/bible" />
+            <TextView
+                android:text="* Updated weekly *"
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/white"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="John 16:33. In the world you will have tribulation. But take heart; I have overcome the world."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Isaiah 41:10. So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Philippians 4:6–7. Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Psalm 34:4–5, 8. I sought the LORD, and He answered me and delivered me from all my fears. Those who look to Him are radiant, and their faces shall never be ashamed. Oh, taste and see that the LORD is good! Blessed is the man who takes refuge in Him!"
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Romans 8:28. And we know that for those who love God all things work together for good, for those who are called according to His purpose."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Joshua 1:9. Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go"
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Matthew 6:31–34. So do not worry, saying, 'What shall we eat?' or 'What shall we drink?' or What shall we wear?' For the pagans run after all these things, and your heavenly Father knows that you need them. But seek first His kingdom and His righteousness, and all these things will be given to you as well. Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own"
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Proverbs 3:5–6. Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge Him, and He will make straight your paths."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Romans 15:13. May the God of hope fill you with all joy and peace as you trust in Him, so that you may overflow with hope by the power of the Holy Spirit."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="2 Chronicles 7:14. If my people who are called by My name humble themselves, and pray and seek My face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land."
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Philippians 2:3–4. Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves. Let each of you look not only to his own interests, but also to the interests of others"
+                android:textAlignment="center"
+                android:textSize="11pt"
+                android:textColor="@color/black"
+                android:paddingTop="15pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
